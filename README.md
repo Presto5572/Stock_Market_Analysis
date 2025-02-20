@@ -4,35 +4,35 @@ Link to the Kaggle data center:
 https://www.kaggle.com/code/thesnak/stock-market-data-analysis/notebook
 
 
-Trend Analysis:
+# Trend Analysis Questions:
 
-How have stock prices trended over different time periods (daily, monthly, yearly)?
-Can you project future price trends based on historical data?
-Volatility and Risk:
+1. How have stock prices trended over different time periods (daily, monthly, yearly)?
+   - Can you project future price trends based on historical data?
+   - Volatility and Risk:
 
-Which stocks have exhibited the highest volatility over the analyzed period?
-Can you estimate future risk or volatility levels for each stock?
-Performance Metrics:
+2. Which stocks have exhibited the highest volatility over the analyzed period?
+   - Can you estimate future risk or volatility levels for each stock?
+   - Performance Metrics:
 
-What are the key performance indicators (e.g., average return, growth rate) for the stocks?
-How do these metrics compare among the stocks, and what projections can be made for future performance?
-Correlation and Diversification:
+3. What are the key performance indicators (e.g., average return, growth rate) for the stocks?
+   - How do these metrics compare among the stocks, and what projections can be made for future performance?
+   - Correlation and Diversification:
 
-How are different stocks correlated with one another?
-Can projections suggest a diversified portfolio that minimizes risk while maximizing returns?
-Volume and Liquidity:
+4. How are different stocks correlated with one another?
+   - Can projections suggest a diversified portfolio that minimizes risk while maximizing returns?
+   - Volume and Liquidity:
 
-What are the trends in trading volume, and how might they affect stock liquidity?
-Can you project the implications of volume changes on future market activity?
-Event Impact Analysis:
+6. What are the trends in trading volume, and how might they affect stock liquidity?
+   - Can you project the implications of volume changes on future market activity?
+   - Event Impact Analysis:
 
-How have specific events (earnings releases, market announcements, etc.) historically impacted stock performance?
-Can you forecast the potential impact of similar future events?
-Comparative Analysis:
+7. How have specific events (earnings releases, market announcements, etc.) historically impacted stock performance?
+   - Can you forecast the potential impact of similar future events?
+   - Comparative Analysis:
 
-How do the stocks perform relative to market indices or competitors?
-What are the projected differences in growth or performance between these groups?
-Seasonality and Cycles:
+8. How do the stocks perform relative to market indices or competitors?
+   - What are the projected differences in growth or performance between these groups?
+   - Seasonality and Cycles:
 
-Are there seasonal patterns or cycles in the stock data?
-How might these patterns project into the future, and can they inform trading strategies?
+9. Are there seasonal patterns or cycles in the stock data?
+   - How might these patterns project into the future, and can they inform trading strategies?
