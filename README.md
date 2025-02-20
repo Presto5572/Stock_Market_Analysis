@@ -37,4 +37,4 @@ https://www.kaggle.com/code/thesnak/stock-market-data-analysis/notebook
 9. Are there seasonal patterns or cycles in the stock data?
    - How might these patterns project into the future, and can they inform trading strategies?
   
-'Some of the questions and prompts used in this project were generated with the assistance of ChatGPT, an AI language model. While these questions provide a structured approach for analysis, all interpretations, insights, and conclusions drawn from the data are my own. The use of AI was limited to brainstorming and organizing ideas for exploration.'
+_Some of the questions and prompts used in this project were generated with the assistance of ChatGPT, an AI language model. While these questions provide a structured approach for analysis, all interpretations, insights, and conclusions drawn from the data are my own. The use of AI was limited to brainstorming and organizing ideas for exploration._
