@@ -1,10 +1,10 @@
-## Stock_Market_Analysis
+# Stock_Market_Analysis
 
 Link to the Kaggle data center:
 https://www.kaggle.com/code/thesnak/stock-market-data-analysis/notebook
 
 
-# Trend Analysis Questions:
+## Trend Analysis Questions:
 
 1. How have stock prices trended over different time periods (daily, monthly, yearly)?
    - Can you project future price trends based on historical data?
