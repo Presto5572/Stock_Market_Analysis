@@ -15,5 +15,5 @@
 ## new_sm.info() 'with the datetime alteration'
 ![image](https://github.com/user-attachments/assets/b57f4bd7-ec1a-4fd3-a064-e0caf96494dc)
 
-## describe() groupby Ticker
+## describe() groupby [Close] Ticker
 ![image](https://github.com/user-attachments/assets/e1e43380-1309-42e0-86cc-7d2bba8f3fa4)
