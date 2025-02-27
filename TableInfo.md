@@ -12,4 +12,5 @@
 ## nunique()
 ![image](https://github.com/user-attachments/assets/88a05526-8fe1-40dc-84a8-46606ca30d5b)
 
-
+## new_sm.info() 'with the datetime alteration'
+![image](https://github.com/user-attachments/assets/b57f4bd7-ec1a-4fd3-a064-e0caf96494dc)
