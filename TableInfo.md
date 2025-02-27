@@ -14,17 +14,4 @@ Index(['Ticker', 'Date', 'Open', 'High', 'Low', 'Close', 'Adj Close',
       dtype='object')
 
 ## info()
-RangeIndex: 248 entries, 0 to 247
-Data columns (total 8 columns):
- #   Column     Non-Null Count  Dtype
----  ------     --------------  -----
- 0   Ticker     248 non-null    object
- 1   Date       248 non-null    object
- 2   Open       248 non-null    float64
- 3   High       248 non-null    float64
- 4   Low        248 non-null    float64
- 5   Close      248 non-null    float64
- 6   Adj Close  248 non-null    float64
- 7   Volume     248 non-null    int64
-dtypes: float64(5), int64(1), object(2)
-memory usage: 15.6+ KB
+![image](https://github.com/user-attachments/assets/1965f5c5-7645-4543-a5f4-181f754b651b)
