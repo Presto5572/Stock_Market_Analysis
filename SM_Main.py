@@ -102,7 +102,7 @@ plt.xlabel('Date')
 plt.ylabel('Stock Volume')
 plt.title('Company Stock Volume')
 plt.xticks(rotation=45)
-plt.legend()
+plt.legend(bbox_to_anchor=(1,.60), loc='upper left')
 plt.grid(True, linestyle='--', alpha=0.5)
 
 # Show graph
