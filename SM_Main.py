@@ -2,11 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read CSV with Date already parsed
-sm = pd.read_csv("Stocket_Market_Analysis/SM_Datasets/stocks.csv", parse_dates=['Date'])
+sm = pd.read_csv("SM_Analysis/Datasets/stocks.csv", parse_dates=['Date'])
 
 """ Cleaning the data """
 new_sm = sm.copy()  # Creates a copy of the data
 
+# 
 new_sm['Date'] = pd.to_datetime(new_sm['Date'])
 new_sm = new_sm.set_index('Date')
 new_sm = new_sm.sort_index()
@@ -15,8 +16,7 @@ new_sm = new_sm.sort_index()
 #print(new_sm.index.is_monotonic_increasing)
 #print(new_sm.index.min(), new_sm.index.max())
 
-'''
-# Filtering for just aapl's CLOSE results on the 19 & 21
+'''# Filtering for just aapl's CLOSE results on the 19 & 21
 aapl_stk = new_sm.loc[(new_sm['Ticker'] == 'AAPL'), 'Close']
 print(aapl_stk.loc['2023-03-19':'2023-03-21'])
 
@@ -39,7 +39,7 @@ plt.xticks(rotation=45)
 plt.show()
 """
 
-"""# Lineplot of AAPL's stock volume in February
+"""# Lineplot of AAPL's stock closing prices in February
 
 # Selecting only AAPL's Closing stock prices in February
 aapl_close = new_sm.loc[(new_sm['Ticker'] == 'AAPL') & (new_sm.index.month == 2), 'Close']
@@ -106,6 +106,38 @@ plt.legend(bbox_to_anchor=(1,.60), loc='upper left')
 plt.grid(True, linestyle='--', alpha=0.5)
 
 # Show graph
+plt.show()
+"""
+
+'''# Scatterplot to predict MSFT's adjusted closing price in March
+
+# Filter for MSFT ticker and Adj Close
+msft_stk = new_sm.loc[(new_sm['Ticker'] == 'MSFT') & (new_sm.index.month == 3), 'Adj Close']
+
+plt.scatter(msft_stk.index, msft_stk.values, color='b', linestyle='-')
+
+plt.xlabel('Date')
+plt.ylabel('Stock Adjusted Price')
+plt.title('MSFT Adjusted Closing Price in March')
+plt.xticks(rotation=45)
+
+plt.show()
+'''
+
+"""# Lineplot of Google's daily price change in March
+
+goog_March = new_sm.loc[(new_sm['Ticker'] == 'GOOG') & (new_sm.index.to_series().dt.month == 3)]
+
+goog_avg = goog_March['High'] - goog_March['Low']
+
+plt.figure(figsize=(10, 5))
+plt.plot(goog_avg.index, goog_avg.values, color='b', linestyle='-')
+
+plt.xlabel('Date')
+plt.ylabel('Price Change')
+plt.title('Google Stock Price Change')
+plt.xticks(rotation=45)
+
 plt.show()
 """
 
